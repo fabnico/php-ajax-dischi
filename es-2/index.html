@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>php dischi</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+   </head>
+   <body>
+      <ul id="app">
+         <li v-for="cd in cds">
+            <img :src="cd.poster" alt="Immagine copertina">
+            <span><strong>Titolo:</strong> {{cd.title}}</span>
+            <span><strong>Autore:</strong> {{cd.author}}</span>
+            <span><strong>Genere:</strong> {{cd.genre}}</span>
+            <span><strong>Anno:</strong> {{cd.year}}</span>
+         </li>
+      </ul>
+      <script src="main.js"></script>
+   </body>
+</html>
