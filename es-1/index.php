@@ -91,7 +91,7 @@
                <li>
                   <img src="<?php echo $disco["poster"]; ?>">
                   <?php echo
-                  "<span> <strong> Titolo: </strong> </span>" . ' ' . " " . $disco["title"] .
+                  "<span> <strong> Titolo: </strong> </span>" . " " . $disco["title"] .
                   "<span> <strong> Autore: </strong> </span> " . "  " . $disco["author"] .
                   "<span> <strong> Genere: </strong> </span> " . " " . $disco["genre"] .
                   "<span> <strong> Anno: </strong> </span> ". " " .  $disco["year"] .
